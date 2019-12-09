@@ -18,7 +18,7 @@ def draw_branch(branch_length):
 
         #返回根节点
         t.right(30)
-        if branch_length <= 6:
+        if branch_length <= 10:
             t.pencolor("red")
         else:
             t.pencolor("yellow")
