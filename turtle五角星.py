@@ -10,7 +10,7 @@ def main():
     t.begin_fill()
     j = 1
     while j <= 5:
-        t.forward(100)   #向前走100
+        t.forward(150)   #向前走150
         t.right(144)    #向右转144度
         j = j + 1
     t.end_fill()
