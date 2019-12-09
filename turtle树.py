@@ -6,19 +6,19 @@
 
 import turtle as t
 def draw_branch(branch_length):
-    if branch_length >= 5:
+    if branch_length >= 6:
         #绘制右侧树枝
         t.forward(branch_length)
-        t.right(20)
-        draw_branch(branch_length - 5)
+        t.right(30)
+        draw_branch(branch_length - 6)
 
         #绘制左侧树枝
-        t.left(40)
-        draw_branch(branch_length - 5)
+        t.left(60)
+        draw_branch(branch_length - 6)
 
         #返回根节点
-        t.right(20)
-        if branch_length <= 5:
+        t.right(30)
+        if branch_length <= 6:
             t.pencolor("red")
         else:
             t.pencolor("yellow")
